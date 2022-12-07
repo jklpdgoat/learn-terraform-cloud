@@ -1,12 +1,12 @@
 terraform {
 
-  cloud {
-    organization = "example-org-0dd834"
+  # cloud {
+  #   organization = "example-org-0dd834"
 
-    workspaces {
-      name = "learn-terraform-cloud"
-    }
-  }
+  #   workspaces {
+  #     name = "learn-terraform-cloud"
+  #   }
+  # }
 
   required_providers {
     aws = {
